@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EAEDCB120CDDF5700065FDF /* fristViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAEDCB020CDDF5700065FDF /* fristViewController.swift */; };
 		2EFFCFD320CC67E2002BBB38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFFCFD220CC67E2002BBB38 /* AppDelegate.swift */; };
-		2EFFCFD520CC67E2002BBB38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFFCFD420CC67E2002BBB38 /* ViewController.swift */; };
 		2EFFCFD820CC67E2002BBB38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EFFCFD620CC67E2002BBB38 /* Main.storyboard */; };
 		2EFFCFDA20CC67E2002BBB38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EFFCFD920CC67E2002BBB38 /* Assets.xcassets */; };
 		2EFFCFDD20CC67E2002BBB38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EFFCFDB20CC67E2002BBB38 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EAEDCB020CDDF5700065FDF /* fristViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fristViewController.swift; sourceTree = "<group>"; };
 		2EFFCFCF20CC67E2002BBB38 /* fashionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fashionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EFFCFD220CC67E2002BBB38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2EFFCFD420CC67E2002BBB38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2EFFCFD720CC67E2002BBB38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EFFCFD920CC67E2002BBB38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EFFCFDC20CC67E2002BBB38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +35,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EAEDCB220CEF4F900065FDF /* frist */ = {
+			isa = PBXGroup;
+			children = (
+				2EAEDCB020CDDF5700065FDF /* fristViewController.swift */,
+			);
+			path = frist;
+			sourceTree = "<group>";
+		};
+		2EAEDCB320CEF50F00065FDF /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		2EFFCFC620CC67E2002BBB38 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +69,55 @@
 		2EFFCFD120CC67E2002BBB38 /* fashionApp */ = {
 			isa = PBXGroup;
 			children = (
+				2EFFCFE820CC6877002BBB38 /* View */,
+				2EFFCFE720CC686D002BBB38 /* Controllers */,
+				2EFFCFE620CC6865002BBB38 /* Model */,
+				2EFFCFE520CC685C002BBB38 /* Helper */,
+				2EFFCFE420CC6854002BBB38 /* Images */,
 				2EFFCFD220CC67E2002BBB38 /* AppDelegate.swift */,
-				2EFFCFD420CC67E2002BBB38 /* ViewController.swift */,
-				2EFFCFD620CC67E2002BBB38 /* Main.storyboard */,
-				2EFFCFD920CC67E2002BBB38 /* Assets.xcassets */,
 				2EFFCFDB20CC67E2002BBB38 /* LaunchScreen.storyboard */,
 				2EFFCFDE20CC67E2002BBB38 /* Info.plist */,
 			);
 			path = fashionApp;
+			sourceTree = "<group>";
+		};
+		2EFFCFE420CC6854002BBB38 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2EFFCFD920CC67E2002BBB38 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		2EFFCFE520CC685C002BBB38 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2EFFCFE620CC6865002BBB38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2EFFCFE720CC686D002BBB38 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2EAEDCB320CEF50F00065FDF /* New Group */,
+				2EAEDCB220CEF4F900065FDF /* frist */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2EFFCFE820CC6877002BBB38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2EFFCFD620CC67E2002BBB38 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +192,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EFFCFD520CC67E2002BBB38 /* ViewController.swift in Sources */,
 				2EFFCFD320CC67E2002BBB38 /* AppDelegate.swift in Sources */,
+				2EAEDCB120CDDF5700065FDF /* fristViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +206,7 @@
 				2EFFCFD720CC67E2002BBB38 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		2EFFCFDB20CC67E2002BBB38 /* LaunchScreen.storyboard */ = {
