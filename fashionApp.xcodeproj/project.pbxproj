@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EA68A3620CF0DB800871444 /* signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA68A3520CF0DB800871444 /* signup.swift */; };
 		2EAEDCB120CDDF5700065FDF /* fristViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAEDCB020CDDF5700065FDF /* fristViewController.swift */; };
+		2EFB0AF420CF1D4C00C2D8C1 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB0AF320CF1D4C00C2D8C1 /* home.swift */; };
+		2EFB0AF720D0711A00C2D8C1 /* menFashion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB0AF620D0711A00C2D8C1 /* menFashion.swift */; };
+		2EFB0AF920D074B700C2D8C1 /* TshirtViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB0AF820D074B700C2D8C1 /* TshirtViewCell.swift */; };
+		2EFB0AFB20D074CE00C2D8C1 /* ShoesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB0AFA20D074CE00C2D8C1 /* ShoesViewCell.swift */; };
+		2EFB0AFD20D074E200C2D8C1 /* JeansViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB0AFC20D074E200C2D8C1 /* JeansViewCell.swift */; };
 		2EFFCFD320CC67E2002BBB38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFFCFD220CC67E2002BBB38 /* AppDelegate.swift */; };
 		2EFFCFD820CC67E2002BBB38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EFFCFD620CC67E2002BBB38 /* Main.storyboard */; };
 		2EFFCFDA20CC67E2002BBB38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EFFCFD920CC67E2002BBB38 /* Assets.xcassets */; };
@@ -15,7 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EA68A3520CF0DB800871444 /* signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signup.swift; sourceTree = "<group>"; };
 		2EAEDCB020CDDF5700065FDF /* fristViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fristViewController.swift; sourceTree = "<group>"; };
+		2EFB0AF320CF1D4C00C2D8C1 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		2EFB0AF620D0711A00C2D8C1 /* menFashion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menFashion.swift; sourceTree = "<group>"; };
+		2EFB0AF820D074B700C2D8C1 /* TshirtViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TshirtViewCell.swift; sourceTree = "<group>"; };
+		2EFB0AFA20D074CE00C2D8C1 /* ShoesViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesViewCell.swift; sourceTree = "<group>"; };
+		2EFB0AFC20D074E200C2D8C1 /* JeansViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeansViewCell.swift; sourceTree = "<group>"; };
 		2EFFCFCF20CC67E2002BBB38 /* fashionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fashionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EFFCFD220CC67E2002BBB38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EFFCFD720CC67E2002BBB38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,11 +55,31 @@
 			path = frist;
 			sourceTree = "<group>";
 		};
-		2EAEDCB320CEF50F00065FDF /* New Group */ = {
+		2EAEDCB320CEF50F00065FDF /* signUp */ = {
 			isa = PBXGroup;
 			children = (
+				2EA68A3520CF0DB800871444 /* signup.swift */,
 			);
-			path = "New Group";
+			path = signUp;
+			sourceTree = "<group>";
+		};
+		2EE6C6D620CF1517005AAC74 /* main page */ = {
+			isa = PBXGroup;
+			children = (
+				2EFB0AF320CF1D4C00C2D8C1 /* home.swift */,
+			);
+			path = "main page";
+			sourceTree = "<group>";
+		};
+		2EFB0AF520D070FC00C2D8C1 /* men fashion */ = {
+			isa = PBXGroup;
+			children = (
+				2EFB0AF620D0711A00C2D8C1 /* menFashion.swift */,
+				2EFB0AF820D074B700C2D8C1 /* TshirtViewCell.swift */,
+				2EFB0AFA20D074CE00C2D8C1 /* ShoesViewCell.swift */,
+				2EFB0AFC20D074E200C2D8C1 /* JeansViewCell.swift */,
+			);
+			path = "men fashion";
 			sourceTree = "<group>";
 		};
 		2EFFCFC620CC67E2002BBB38 = {
@@ -106,7 +138,9 @@
 		2EFFCFE720CC686D002BBB38 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2EAEDCB320CEF50F00065FDF /* New Group */,
+				2EFB0AF520D070FC00C2D8C1 /* men fashion */,
+				2EE6C6D620CF1517005AAC74 /* main page */,
+				2EAEDCB320CEF50F00065FDF /* signUp */,
 				2EAEDCB220CEF4F900065FDF /* frist */,
 			);
 			path = Controllers;
@@ -192,7 +226,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EA68A3620CF0DB800871444 /* signup.swift in Sources */,
+				2EFB0AF720D0711A00C2D8C1 /* menFashion.swift in Sources */,
+				2EFB0AFD20D074E200C2D8C1 /* JeansViewCell.swift in Sources */,
 				2EFFCFD320CC67E2002BBB38 /* AppDelegate.swift in Sources */,
+				2EFB0AFB20D074CE00C2D8C1 /* ShoesViewCell.swift in Sources */,
+				2EFB0AF420CF1D4C00C2D8C1 /* home.swift in Sources */,
+				2EFB0AF920D074B700C2D8C1 /* TshirtViewCell.swift in Sources */,
 				2EAEDCB120CDDF5700065FDF /* fristViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
